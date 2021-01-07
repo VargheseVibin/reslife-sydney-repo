@@ -1,17 +1,20 @@
-       program-id. hellocics as "hellocics".
+       IDENTIFICATION DIVISION.
+       PROGRAM-ID. hellocics.
 
-       environment division.
-       configuration section.
+       ENVIRONMENT DIVISION.
+       CONFIGURATION SECTION.
 
-       data division.
-       working-storage section.
-        copy tstcopy.
-       procedure division.
+       DATA DIVISION.
+       WORKING-STORAGE SECTION.
+           COPY TSTCOPY.
+       PROCEDURE DIVISION.
+           DISPLAY "Hello There!".
+           DISPLAY "Hi " MY-NAME.
+           MOVE "Febin" TO MY-NAME.
+           DISPLAY "Hi " MY-NAME.
+           
+           GOBACK.
 
-           display "Hello There CICS!".
-           display "Hi There " MY-NAME.
-           move "FEBIN" to MY-NAME.
-           display "Hi There " MY-NAME.    
-           goback.
+       END PROGRAM hellocics.
 
-       end program hellocics.
+
