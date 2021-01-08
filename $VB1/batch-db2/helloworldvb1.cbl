@@ -15,11 +15,11 @@
            DISPLAY "Hi " MY-NAME.
            MOVE "Febin" TO MY-NAME.
            DISPLAY "Hi " MY-NAME.
-           ACCEPT CURRENT-DATE FROM DATE               
-           ACCEPT CURRENT-TIME FROM TIME               
+           ACCEPT CURRENT-DATE FROM DATE.               
+           ACCEPT CURRENT-TIME FROM TIME.              
                                                  
-           DISPLAY 'THE DATE TODAY IS :' CURRENT-DATE   
-           DISPLAY 'THE TIME NOW   IS :' CURRENT-TIME     
+           DISPLAY 'THE DATE TODAY IS :' CURRENT-DATE.   
+           DISPLAY 'THE TIME NOW   IS :' CURRENT-TIME.    
            
            GOBACK.
 
