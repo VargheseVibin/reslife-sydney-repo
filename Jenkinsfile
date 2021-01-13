@@ -1,5 +1,8 @@
 pipeline {
     agent any
+    parameters { 
+        choice(name: 'Branch', choices: ["main", "develop"])
+    }
     environment {
         ANT_HOME="D:\\OneDrive - Infosys Limited\\Downloads\\apache-ant-1.10.5-bin\\apache-ant-1.10.5"
         JAVA_HOME="%ProgramFiles(x86)%\\Micro Focus\\Enterprise Developer\\AdoptOpenJDK"
