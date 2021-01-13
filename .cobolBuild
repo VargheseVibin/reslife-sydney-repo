@@ -22,6 +22,7 @@
 	<property name="mf.failOnError" value="false"/>
 	<property name="mf.cobolFailOnError" value="${mf.failOnError}"/>
 	<property name="mf.cobollinkFailOnError" value="${mf.failOnError}"/>
+	<property name="linkedfolder.cpylib" value="${pathVar.PROJECT_LOC}/$VB1/cobcopy"/>
 	<property name="mf.entryPoint.cfg.New_Configuration" value=""/>
 	<property name="mf.destDir.cfg.New_Configuration" value="${basedir}/New_Configuration.bin"/>
 	<property name="mf.entryPoint.file" value=""/>
@@ -33,6 +34,7 @@
 		<echo message="Project Location: &apos;pathVar.ECLIPSE_HOME&apos;=${pathVar.ECLIPSE_HOME}"/>
 		<echo message="Project Location: &apos;pathVar.PARENT_LOC&apos;=${pathVar.PARENT_LOC}"/>
 		<echo message="Project Location: &apos;project.reslife-sydney-repo-main&apos;=${mf.projectLocation.reslife-sydney-repo-main}"/>
+		<echo message="Project Location: &apos;linkedfolder.cpylib&apos;=${linkedfolder.cpylib}"/>
 	</target>
 	<!--  ******************************  -->
 	<!--  * OS-specific initialisation *  -->
@@ -122,6 +124,7 @@
 		<path type="asmmacro" name="${mf.projectLocation.reslife-sydney-repo-main}/$VB1/batch-db2"/>
 		<path type="asmmacro" name="${mf.projectLocation.reslife-sydney-repo-main}/$VB1/cobcopy"/>
 		<path type="asmmacro" name="${mf.projectLocation.reslife-sydney-repo-main}/$VB1/online-cics-db2"/>
+		<path type="asmmacro" name="${pathVar.PROJECT_LOC}/$VB1/cobcopy"/>
 	</mffilelist>
 	<!-- IMS Copy locations -->
 	<mffilelist id="ims.copy.locations">
@@ -173,6 +176,7 @@
 		<path type="imscpy" name="${mf.projectLocation.reslife-sydney-repo-main}/$VB1/batch-db2"/>
 		<path type="imscpy" name="${mf.projectLocation.reslife-sydney-repo-main}/$VB1/cobcopy"/>
 		<path type="imscpy" name="${mf.projectLocation.reslife-sydney-repo-main}/$VB1/online-cics-db2"/>
+		<path type="imscpy" name="${pathVar.PROJECT_LOC}/$VB1/cobcopy"/>
 	</mffilelist>
 	<!-- JCL include locations -->
 	<mffilelist id="jcl.include.locations">
@@ -224,6 +228,7 @@
 		<path type="jclinclude" name="${mf.projectLocation.reslife-sydney-repo-main}/$VB1/batch-db2"/>
 		<path type="jclinclude" name="${mf.projectLocation.reslife-sydney-repo-main}/$VB1/cobcopy"/>
 		<path type="jclinclude" name="${mf.projectLocation.reslife-sydney-repo-main}/$VB1/online-cics-db2"/>
+		<path type="jclinclude" name="${pathVar.PROJECT_LOC}/$VB1/cobcopy"/>
 	</mffilelist>
 	<!-- Copypath enabled output locations -->
 	<mffilelist id="output.copybook.enabled.locations">
@@ -254,6 +259,7 @@
 		<path type="copybook" name="${mf.projectLocation.reslife-sydney-repo-main}"/>
 		<path type="copybook" name="${mf.projectLocation.reslife-sydney-repo-main}/$VB"/>
 		<path type="copybook" name="${mf.projectLocation.reslife-sydney-repo-main}/$VB/batch-db2"/>
+		<path type="copybook" name="${pathVar.PROJECT_LOC}/$VB1/cobcopy"/>
 		<path type="copybook" name="${mf.projectLocation.reslife-sydney-repo-main}/$VB/cobcopy"/>
 		<path type="copybook" name="${mf.projectLocation.reslife-sydney-repo-main}/$VB/online-cics-db2"/>
 		<path type="copybook" name="${mf.projectLocation.reslife-sydney-repo-main}/$VB1"/>

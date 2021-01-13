@@ -5,6 +5,7 @@
          <path enabled="true" name="/reslife-sydney-repo-main" type="mfpath"/>
          <path enabled="true" name="/reslife-sydney-repo-main/$VB" type="mfpath"/>
          <path enabled="true" name="/reslife-sydney-repo-main/$VB/batch-db2" type="mfpath"/>
+         <path enabled="true" name="/reslife-sydney-repo-main/$VB1/cpylib" type="mfpath"/>
          <path enabled="true" name="/reslife-sydney-repo-main/$VB/cobcopy" type="mfpath"/>
          <path enabled="true" name="/reslife-sydney-repo-main/$VB/online-cics-db2" type="mfpath"/>
          <path enabled="true" name="/reslife-sydney-repo-main/$VB1" type="mfpath"/>
@@ -68,6 +69,7 @@
          <path enabled="true" name="/reslife-sydney-repo-main/$VB1/batch-db2" type="mfpath"/>
          <path enabled="true" name="/reslife-sydney-repo-main/$VB1/cobcopy" type="mfpath"/>
          <path enabled="true" name="/reslife-sydney-repo-main/$VB1/online-cics-db2" type="mfpath"/>
+         <path enabled="true" name="/reslife-sydney-repo-main/$VB1/cpylib" type="mfpath"/>
       </build-precedence-paths>
       <configurations default="New Configuration" linkedWith="2017" xsi:type="buildConfigurationsContainer">
          <configuration description="New Configuration" type="all_dll" xsi:type="cobolBuildConfiguration">
@@ -172,6 +174,7 @@
          <path enabled="true" name="/reslife-sydney-repo-main/$VB1/batch-db2" type="mfpath"/>
          <path enabled="true" name="/reslife-sydney-repo-main/$VB1/cobcopy" type="mfpath"/>
          <path enabled="true" name="/reslife-sydney-repo-main/$VB1/online-cics-db2" type="mfpath"/>
+         <path enabled="true" name="/reslife-sydney-repo-main/$VB1/cpylib" type="mfpath"/>
       </imscopy-paths>
       <jcl-include-paths xsi:type="jclIncludePathsSettings">
          <path enabled="true" name="/reslife-sydney-repo-main" type="mfpath"/>
@@ -222,6 +225,7 @@
          <path enabled="true" name="/reslife-sydney-repo-main/$VB1/batch-db2" type="mfpath"/>
          <path enabled="true" name="/reslife-sydney-repo-main/$VB1/cobcopy" type="mfpath"/>
          <path enabled="true" name="/reslife-sydney-repo-main/$VB1/online-cics-db2" type="mfpath"/>
+         <path enabled="true" name="/reslife-sydney-repo-main/$VB1/cpylib" type="mfpath"/>
       </jcl-include-paths>
       <asmmacro-paths xsi:type="assemblerMacroPathsSettings">
          <path enabled="true" name="/reslife-sydney-repo-main" type="mfpath"/>
@@ -272,6 +276,7 @@
          <path enabled="true" name="/reslife-sydney-repo-main/$VB1/batch-db2" type="mfpath"/>
          <path enabled="true" name="/reslife-sydney-repo-main/$VB1/cobcopy" type="mfpath"/>
          <path enabled="true" name="/reslife-sydney-repo-main/$VB1/online-cics-db2" type="mfpath"/>
+         <path enabled="true" name="/reslife-sydney-repo-main/$VB1/cpylib" type="mfpath"/>
       </asmmacro-paths>
       <dependent-projects xsi:type="dependentProjectsSettings"/>
       <asm_link_settings xsi:type="assemblerLinkSettings">

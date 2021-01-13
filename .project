@@ -8,6 +8,18 @@
 		<buildCommand>
 			<name>com.microfocus.eclipse.project.cobolBuilder</name>
 			<arguments>
+				<dictionary>
+					<key>mf.buildThreadCount</key>
+					<value>1</value>
+				</dictionary>
+				<dictionary>
+					<key>mf.settingsDir</key>
+					<value>.settings</value>
+				</dictionary>
+				<dictionary>
+					<key>mf.useDirectiveSet</key>
+					<value>true</value>
+				</dictionary>
 			</arguments>
 		</buildCommand>
 	</buildSpec>
@@ -15,4 +27,11 @@
 		<nature>com.microfocus.eclipse.project.cobolNature</nature>
 		<nature>com.microfocus.eclipse.edt.core.edtNature</nature>
 	</natures>
+	<linkedResources>
+		<link>
+			<name>$VB1/cpylib</name>
+			<type>2</type>
+			<locationURI>PROJECT_LOC/$VB1/cobcopy</locationURI>
+		</link>
+	</linkedResources>
 </projectDescription>
